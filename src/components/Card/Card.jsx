@@ -6,9 +6,9 @@ const Card = ({card}) => {
   return(
 		<div className="container">
 			<div className="card col-md-3">
-				<img src="" alt="imagen" />
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrx1TR2E-OzrO5GdCVhs7k7Iu1XL5XVMZX_g&usqp=CAU" alt="imagen" />
 				<div className="card-body">
-					<h5 className="card-title">{timezone}</h5>
+					<h4 className="card-title">{timezone}</h4>
 					<p className="card-text">
 						<strong>Latitud: </strong> 
 						{latitude}
