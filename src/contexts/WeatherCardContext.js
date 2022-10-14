@@ -1,8 +1,8 @@
 import { createContext, useState } from "react";
 
 
-export const WeatherCardContext = createContext ({
-	weather: [],
+export const WeatherCardContext = createContext({
+  weather: [],
   setWeather: () => {}
 })
 
@@ -13,4 +13,3 @@ export const WeatherCardProvider = ({ children }) => {
 
 	return <WeatherCardContext.Provider value={value}>{children}</WeatherCardContext.Provider> 
 }
-
